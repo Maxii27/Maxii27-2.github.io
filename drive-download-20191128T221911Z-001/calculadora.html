@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel=stylesheet href="calculadora.css" type="text/css">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+       <title>Document</title>
+
+       <style>
+              @media screen and (max-width:800px) {
+                     body {
+                            background-color: blue;
+                            width: auto;
+                     }
+              }
+       </style>
+</head>
+
+<body>
+       <article id="borde">
+              <article id="skin">
+                     <div>
+                            <div id="visor">0</div>
+
+                     </div><br>
+
+                     <input type="button" class="boton" onClick="borrarNum()" value="C">
+
+                     <input type="button" class="boton" onClick="enviarNum('signo')" value="+/-">
+
+                     <input type="button" class="boton" value='&nbsp'>
+
+                     <input type="button" class="boton" onClick="almacenarNum ('*')" value="x">
+                     <div class="uno">
+
+                            <input type="button" class="boton" onClick="enviarNum (1)" value='1'>
+
+                            <input type='button' class='boton' onClick="enviarNum (2)" value="2">
+
+                            <input type="button" class='boton' onClick="enviarNum (3)" value='3'>
+
+                            <input type="button" class='boton' onClick="almacenarNum ('/')" value='/'>
+                     </div>
+                     <div class="uno">
+
+                            <input type="button" class='boton' onClick="enviarNum (4)" value='4'>
+
+                            <input type="button" class='boton' onClick="enviarNum (5)" value="5">
+
+                            <input type="button" class='boton' onClick="enviarNum (6)" value="6">
+
+                            <input type="button" class='boton' onClick="almacenarNum ('-')" value="-">
+                     </div>
+                     <div class="uno">
+
+                            <input type="button" class='boton' onClick="enviarNum (7)" value="7">
+
+                            <input type="button" class='boton' onClick="enviarNum (8)" value="8">
+
+                            <input type="button" class='boton' onClick="enviarNum (9)" value="9">
+
+                            <input type="button" class='boton' onClick="almacenarNum ('+')" value="+">
+                     </div>
+                     <div class="uno">
+
+
+                            <input type="button" class='boton' value="&nbsp">
+
+                            <input type="button" class='boton' onClick="enviarNum (0)" value="0">
+
+                            <input type="button" class='boton' onClick="enviarNum (',')" value=",">
+
+                            <input type="button" class='boton' onClick="resultado()" value="=">
+                     </div>
+                     <div class="uno">
+
+
+                            <input id="primernumero" type="hidden" />
+                            <input id="operaciones" type="hidden" />
+              </article>
+       </article>
+</body>
+
+</html>
+<script src="calculadora.js">
+
+</script>

@@ -1,0 +1,49 @@
+#skin {
+	margin-left: auto;
+	margin-right: auto;
+	align-content: center;
+	border: solid 4px;
+	width: auto;
+	height: auto;
+	padding-left: 6;
+	padding-right: 6;
+	padding-top: 9;
+	padding-bottom: 6;
+	border-color: rgba(32, 32, 32, 0.462);
+	background-color: rgb(185, 183, 183);
+	border-radius: 11px;
+	text-align:center;
+}
+#visor {
+	border: solid 2px;
+	width: 9.1em;
+	height: 2.7em;
+	text-align: right;
+	line-height: 2.5em;
+	display: inline-block;
+	overflow: auto;
+	background-color: rgb(97, 236, 222);
+	border-color: rgb(23, 147, 224);
+	border-radius: 6px;
+}
+.boton {
+	width: 37px;
+	height: 35px;
+	border-radius: 10px;
+	color: black;
+	border-width: 3px;
+	border-color: rgba(136, 135, 135, 0.707);
+	border-bottom-color: grey;
+}
+#borde {
+	border-color: black;
+	border: solid 3px;
+	width: 180px;
+	height: 7px auto;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 14px;
+}
+.uno {
+	padding-top: 3px;
+}
